@@ -117,3 +117,26 @@ prevBtn.addEventListener("click", () => {
 
     showImage(current);
 });
+
+const increaseBtn = document.getElementById("increase-font");
+const decreaseBtn = document.getElementById("decrease-font");
+
+let fontSize = parseFloat(localStorage.getItem("fontSize")) || 16;
+
+document.documentElement.style.fontSize = fontSize + "px";
+
+increaseBtn.addEventListener("click", () => {
+    if (fontSize < 24) {
+        fontSize += 2;
+        document.documentElement.style.fontSize = fontSize + "px";
+        localStorage.setItem("fontSize", fontSize);
+    }
+});
+
+decreaseBtn.addEventListener("click", () => {
+    if (fontSize > 12) {
+        fontSize -= 2;
+        document.documentElement.style.fontSize = fontSize + "px";
+        localStorage.setItem("fontSize", fontSize);
+    }
+});

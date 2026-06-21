@@ -1,0 +1,53 @@
+/* SECCIONES */
+
+.section{
+    padding:5rem 10%;
+}
+
+.section h2{
+    text-align:center;
+    margin-bottom:2rem;
+    color:var(--primary);
+}
+
+
+/* SECCIÓN NOSOTROS */
+
+#nosotros .card:first-child{
+    flex:1 1 100%;
+}
+
+#nosotros .card:nth-child(2),
+#nosotros .card:nth-child(3){
+    flex:1 1 300px;
+}
+
+/* INFO */
+
+.info{
+    background:var(--light);
+    padding:4rem 10%;
+}
+
+.info h2{
+    margin-bottom:1rem;
+    color:var(--primary);
+}
+
+/* MAPA */
+
+.map-description{
+    text-align:center;
+    margin-bottom:2rem;
+}
+
+.map-container{
+    width:100%;
+}
+
+.map-container iframe{
+    width:100%;
+    height:450px;
+    border:none;
+    border-radius:12px;
+}

@@ -1,0 +1,8 @@
+/* FOOTER */
+
+.footer{
+    background:var(--primary);
+    color:white;
+    text-align:center;
+    padding:2rem;
+}

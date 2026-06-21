@@ -1,0 +1,22 @@
+/* ESTADÍSTICAS */
+
+.stats{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:1.5rem;
+}
+
+.stat{
+    background:var(--primary);
+    color:white;
+    text-align:center;
+    padding:1.5rem;
+    border-radius:12px;
+    word-wrap:break-word;
+}
+
+.stat h3{
+    font-size:clamp(1.4rem, 3vw, 2rem);
+    line-height:1.2;
+    overflow-wrap:break-word;
+}

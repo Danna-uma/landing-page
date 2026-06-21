@@ -1,0 +1,26 @@
+/* MODO OSCURO */
+
+body.dark{
+    background:#111827;
+    color:#f8fafc;
+}
+
+body.dark .card{
+    background:#1f2937;
+    color:white;
+}
+
+body.dark .section h2{
+    color:#60a5fa;
+}
+
+body.dark .info{
+    background:#1f2937;
+}
+
+body.dark input,
+body.dark textarea{
+    background:#374151;
+    color:white;
+    border:1px solid #4b5563;
+}

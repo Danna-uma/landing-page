@@ -1,4 +1,4 @@
-/* ESTADÍSTICAS */
+/* ESTADÍSTICAS *//*Institucion reconocida por */
 
 .stats{
     display:grid;
@@ -12,7 +12,7 @@
     text-align:center;
     padding:1.5rem;
     border-radius:12px;
-    word-wrap:break-word;
+    word-wrap:break-word;/*palabras se adapten*/
 }
 
 .stat h3{

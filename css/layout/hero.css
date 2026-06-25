@@ -40,7 +40,7 @@
 .btn{
     background:var(--secondary);
     color:white;
-    text-decoration:none;
+    text-decoration:none;/*subrayado enlace*/
     padding:1rem 2rem;
     border-radius:10px;
     display:inline-block;

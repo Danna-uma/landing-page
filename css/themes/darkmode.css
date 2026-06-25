@@ -1,12 +1,12 @@
 /* MODO OSCURO */
 
 body.dark{
-    background:#111827;
+    background:#1f2937;
     color:#f8fafc;
 }
 
 body.dark .card{
-    background:#1f2937;
+    background:#5d7faf;
     color:white;
 }
 

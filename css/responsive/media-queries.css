@@ -177,6 +177,9 @@
     border:none;
     border-radius:12px;
     }
+    .contact-location{
+    grid-template-columns:1fr;
+}
 
 }
 

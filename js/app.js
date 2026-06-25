@@ -13,6 +13,14 @@ hamburgerBtn.addEventListener("click", () => {
 
     navLinks.classList.toggle("active");
 
+    const expanded =
+        hamburgerBtn.getAttribute("aria-expanded") === "true";
+
+    hamburgerBtn.setAttribute(
+        "aria-expanded",
+        !expanded
+    );
+
 });
 
 /* CERRAR MENÚ AL HACER CLICK */
@@ -118,6 +126,8 @@ prevBtn.addEventListener("click", () => {
     showImage(current);
 });
 
+
+//Botones de tamaño
 const increaseBtn = document.getElementById("increase-font");
 const decreaseBtn = document.getElementById("decrease-font");
 

@@ -8,7 +8,7 @@
 .gallery img,
 .contact-form button {
     transition: transform 0.25s ease, box-shadow 0.25s ease;
-    display: inline-block;
+    display: inline-block;/*botones*/
 }
 
 .card:hover,
@@ -19,7 +19,7 @@
 .stat:hover,
 .gallery img:hover,
 .contact-form button:hover {
-    transform: translateY(-6px);
+    transform: translateY(-10px);
 }
 
 .map-container{
@@ -31,6 +31,33 @@
     border:none;
     border-radius:12px;
     height:450px;
+}
+
+/* INFORMACIÓN + UBICACIÓN */
+
+.contact-location{
+    display:grid;
+    grid-template-columns:1fr 2fr;
+    gap:2rem;
+    align-items:start;
+}
+
+.info-card,
+.location-card{
+    background:white;
+    padding:2rem;
+    border-radius:12px;
+    box-shadow:0 3px 10px rgba(0,0,0,.1);
+}
+
+.info-card h2,
+.location-card h2{
+    color:var(--primary);
+    margin-bottom:1.5rem;
+}
+
+.info-card p{
+    margin-bottom:.8rem;
 }
 
 .card {

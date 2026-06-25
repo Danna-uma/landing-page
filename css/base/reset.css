@@ -15,7 +15,7 @@ body{
     background-color:#ffffff;
     color:#1f2937;
     line-height:1.6;
-    overflow-x:hidden;
+    overflow-x:hidden;/*contenido horizontal*/
 }
 
 img{

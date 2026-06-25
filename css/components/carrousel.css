@@ -19,7 +19,7 @@
     color: white;
     font-size: 2rem;
     cursor: pointer;
-    z-index: 999;
+    z-index: 999;/*botones encima de la imagen*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,7 +32,7 @@
 .carousel-track img{
     width: 100%;
     height: 600px;
-    object-fit: cover;
+    object-fit: cover; /*complete espacio disponible*/
     display: none; 
 }
 

@@ -8,9 +8,8 @@ El proyecto se enfoca en el diseño responsivo y la organización visual del con
 
 ## Tecnologías
 - HTML5
-- CSS3
+- CSS
 - JavaScript
-- Git y GitHub
 - Responsive Design
 
 ---
